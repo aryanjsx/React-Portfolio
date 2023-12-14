@@ -1,10 +1,8 @@
 # React - Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/afea2508-00ca-464f-8f63-a4283928fc0f/deploy-status)](https://app.netlify.com/sites/hriship/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/afea2508-00ca-464f-8f63-a4283928fc0f/deploy-status)](https://aryankr.netlify.app/#/home)
 
 ![opPortfolio](/images/portfolio.gif)
-
-### A clean portfolio template. (Readme will be updated soon)
 
 # Sections
 
