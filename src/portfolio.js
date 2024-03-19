@@ -7,7 +7,7 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello,",
+  title: "Hii,",
   title2: "Aryan",
   logo_name: "aryan.py()",
   nickname: "aryan728",
