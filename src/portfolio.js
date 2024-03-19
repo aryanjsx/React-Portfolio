@@ -314,7 +314,7 @@ const experience = {
           company_url: "https://www.helper4u.in/",
           logo_path: "cra.png",
           duration: "Dec 2023 - Mar 2024",
-          location: "Work From Home",
+          location: "Remote",
           description: `
           ⚡ Contributed expertise in web and android development, enhancing project outcomes. \n
           ⚡ Collaborated effectively with cross-functional teams to deliver innovative solutions. \n
