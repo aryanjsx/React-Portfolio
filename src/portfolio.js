@@ -1,15 +1,13 @@
-
 const settings = {
-  isSplash: true, // Change this to true if you want to use the splash screen.
+  isSplash: false, // Change this to true if you want to use the splash screen.
   useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
 };
 
 //Home Page
 const greeting = {
-  title: "Hii,",
+  title: "Hello,",
   title2: "Aryan",
-  logo_name: "aryan.py()",
+  logo_name: "_aryank",
   nickname: "aryan728",
   full_name: "Aryan Kumar",
   subTitle:
@@ -23,11 +21,10 @@ const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/Aryank728",
   linkedin: "https://www.linkedin.com/in/aryank728",
-  gmail: "kumararyan1929@gmail.com",
-  gitlab: " ",
+  gmail: "mailto:kumararyan1929@gmail.com",
   facebook: "https://www.facebook.com/aryank728/",
   twitter: "https://twitter.com/_aryankumar",
-  instagram: "https://www.instagram.com/mr.aryan__kumar/",
+  instagram: "https://www.instagram.com/aryankr728/",
 };
 
 const skills = {
@@ -59,6 +56,27 @@ const skills = {
           },
         },
         {
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "devicon:tailwindcss",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "devicon:bootstrap",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "MUI",
+          fontAwesomeClassname: "simple-icons:mui",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
@@ -66,23 +84,24 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        
+
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          fontAwesomeClassname: "devicon:java",
           style: {
             color: "#f89820",
           },
         },
-        
+
         {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
           style: {
-            color: "#029FCE",
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
-        
+
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -100,8 +119,24 @@ const skills = {
           },
         },
         {
+          skillName: "NPM",
+          fontAwesomeClassname: "devicon:npm-wordmark",
+          style: {
+            color: "#FFFFFF",
+            backgroundColor: "#1D1D1D",
+            borderRadius: "50%",
+          },
+        },
+        {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "vscode-icons:file-type-node",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Express JS",
+          fontAwesomeClassname: "simple-icons:express",
           style: {
             color: "#339933",
           },
@@ -113,10 +148,17 @@ const skills = {
             color: "#439743",
           },
         },
-        
+
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4479A1",
+          },
+        },
+        {
+          skillName: "KnexJS",
+          fontAwesomeClassname: "devicon:knexjs",
           style: {
             color: "#4479A1",
           },
@@ -129,15 +171,47 @@ const skills = {
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "VS Code",
+          fontAwesomeClassname: "devicon:vscode",
           style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
+            color: "#38AFBB",
           },
         },
-
-
+        {
+          skillName: "Visual Studio",
+          fontAwesomeClassname: "devicon:visualstudio",
+          style: {
+            color: "#38AFBB",
+          },
+        },
+        {
+          skillName: "Github",
+          fontAwesomeClassname: "devicon:github",
+          style: {
+            color: "#38AFBB",
+          },
+        },
+        {
+          skillName: "Pycharm",
+          fontAwesomeClassname: "logos:pycharm",
+          style: {
+            color: "#38AFBB",
+          },
+        },
+        {
+          skillName: "Intellij",
+          fontAwesomeClassname: "devicon:intellij",
+          style: {
+            color: "#38AFBB",
+          },
+        },
+        {
+          skillName: "Notion",
+          fontAwesomeClassname: "devicon:notion",
+          style: {
+            color: "#38AFBB",
+          },
+        },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -147,8 +221,6 @@ const skills = {
         },
       ],
     },
-
-   
   ],
 };
 
@@ -160,9 +232,7 @@ const degrees = {
       logo_path: "b.png",
       alt_name: "DAL",
       duration: "Aug 2019 - June 2023",
-      descriptions: [
-        "CGPA: 8.6"
-      ],
+      descriptions: ["CGPA: 8.6"],
       website_link: "https://www.bitcollege.in/",
     },
     {
@@ -171,9 +241,7 @@ const degrees = {
       logo_path: "dal.jpeg",
       alt_name: "SETI",
       duration: "2017 - 2018",
-      descriptions: [
-        "Percentage: 68%"
-      ],
+      descriptions: ["Percentage: 68%"],
       website_link: " ",
     },
     {
@@ -182,9 +250,7 @@ const degrees = {
       logo_path: "vjt.png",
       alt_name: "SETI",
       duration: "2015 - 2016",
-      descriptions: [
-        "Percentage: 70%"
-      ],
+      descriptions: ["Percentage: 70%"],
       website_link: " ",
     },
   ],
@@ -214,7 +280,8 @@ const certifications = {
       title: "Toycathon-21",
       subtitle: "Organized by Govt. of India",
       logo_path: "ino.png",
-      certificate_link: "https://drive.google.com/file/d/1ukpL8egG-1sKF_wSZEoBkDOy__ZvI0Yj/view?usp=sharing",
+      certificate_link:
+        "https://drive.google.com/file/d/1ukpL8egG-1sKF_wSZEoBkDOy__ZvI0Yj/view?usp=sharing",
       alt_name: "Google",
       color_code: "#ffc475",
     },
@@ -222,11 +289,11 @@ const certifications = {
       title: "Innovate India Coding Championship",
       subtitle: "Organized by AICTE",
       logo_path: "google_logo.png",
-      certificate_link: "https://drive.google.com/file/d/1kj2s44guAljG-DlXzn42toWcB8msH9ps/view?usp=sharing",
+      certificate_link:
+        "https://drive.google.com/file/d/1kj2s44guAljG-DlXzn42toWcB8msH9ps/view?usp=sharing",
       alt_name: "Google",
       color_code: "#1e70c1",
     },
-    
   ],
 };
 
@@ -246,15 +313,20 @@ const experience = {
           company: "Helper4U",
           company_url: "https://www.helper4u.in/",
           logo_path: "cra.png",
-          duration: "Dec 2023 - Ongoing",
+          duration: "Dec 2023 - Mar 2024",
           location: "Work From Home",
-          description:
-            "Helper4U helps you hire Helpers - Better, Faster, Safer. We use technology to connect employers with Housekeeping staff, Maids, Nanny, Cook, Driver, Caregivers & everyone similar, on their mobile, without the need of any agency or middleman",
+          description: `
+          ⚡ Contributed expertise in web and android development, enhancing project outcomes. \n
+          ⚡ Collaborated effectively with cross-functional teams to deliver innovative solutions. \n
+          ⚡ Demonstrated proficiency in coding and designing responsive websites, ensuring optimal user experience. \n
+          ⚡ Utilized problem-solving skills to troubleshoot and resolve technical issues promptly. \n
+          ⚡ Consistently delivered high-quality deliverables within strict deadlines, fostering client satisfaction. \n
+          ⚡ Utilized HTML, CSS, Tailwind CSS, Node.js, React.js, Express.js, Next.js, Knex.js & MySQL within the project’s Tech Stack.`,
           color: "#ee3c26",
         },
-      ]
+      ],
     },
-  ]
+  ],
 };
 
 // Projects Page
@@ -299,7 +371,8 @@ const projects = {
     {
       name: "OneNote",
       url: "https://onennote.netlify.app/",
-      description: "This is a online todo app which looks like sticky notes. It also has search feature by which user can search their task easily",
+      description:
+        "This is a online todo app which looks like sticky notes. It also has search feature by which user can search their task easily",
       languages: [
         {
           name: "ReactJS",
@@ -310,8 +383,7 @@ const projects = {
     {
       name: "Youtube Video Downloader",
       url: "https://github.com/Aryank728/youtube-downloader",
-      description:
-        "This is a youtube downloader which I created using python.",
+      description: "This is a youtube downloader which I created using python.",
       languages: [
         {
           name: "Python",
