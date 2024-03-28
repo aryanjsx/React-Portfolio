@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     "I am always enthusiastic to learn new technologies. I am always trying to create a project what I learned. I am interested in Python programming, Web development, and many more...   ",
   resumeLink:
-    "https://drive.google.com/file/d/1zDi-tyDg6SQ7skKwukf4Y_dfVqsMXQHP/view?usp=sharing",
+    "https://drive.google.com/file/d/1v5p7vBj4YlwEt8IgK_ugFrqP6f0sUDfe/view?usp=sharing",
   mail: "mailto:kumararyan1929@gmail.com",
 };
 
