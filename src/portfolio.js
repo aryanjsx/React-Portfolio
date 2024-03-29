@@ -13,15 +13,15 @@ const greeting = {
   subTitle:
     "I am always enthusiastic to learn new technologies. I am always trying to create a project what I learned. I am interested in Python programming, Web development, and many more...   ",
   resumeLink:
-    "https://drive.google.com/file/d/1v5p7vBj4YlwEt8IgK_ugFrqP6f0sUDfe/view?usp=sharing",
-  mail: "mailto:kumararyan1929@gmail.com",
+    "https://drive.google.com/file/d/1hjZkhZcwiaBz8-CWudmJeowPQWe3xWa8/view?usp=sharing",
+  mail: "kumararyan1929@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/Aryank728",
+  github: "https://github.com/Aryank728?tab=repositories",
   linkedin: "https://www.linkedin.com/in/aryank728",
-  gmail: "mailto:kumararyan1929@gmail.com",
+  gmail: "kumararyan1929@gmail.com",
   facebook: "https://www.facebook.com/aryank728/",
   twitter: "https://twitter.com/_aryankumar",
   instagram: "https://www.instagram.com/aryankr728/",
@@ -84,6 +84,14 @@ const skills = {
             color: "#F7DF1E",
           },
         },
+        {
+          skillName: "Jquery",
+          fontAwesomeClassname: "devicon-plain:jquery-wordmark",
+          style: {
+            backgroundColor: "#FFFFFF",
+            color: "#0769AD",
+          },
+        },
 
         {
           skillName: "Java",
@@ -120,7 +128,7 @@ const skills = {
         },
         {
           skillName: "NPM",
-          fontAwesomeClassname: "devicon:npm-wordmark",
+          fontAwesomeClassname: "mdi:npm",
           style: {
             color: "#FFFFFF",
             backgroundColor: "#1D1D1D",
@@ -309,8 +317,8 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Full Stack Developer",
-          company: "Helper4U",
+          title: "Software Developer Intern",
+          company: "Helper4U Services LLP",
           company_url: "https://www.helper4u.in/",
           logo_path: "cra.png",
           duration: "Dec 2023 - Mar 2024",
@@ -357,19 +365,35 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      name: "Virtual Assistant",
-      url: "https://github.com/Aryank728/Virtual-Assistant",
+      name: "Github Finder",
+      url: "https://findongit.netlify.app/",
       description:
         "This is a small virtual assistant for my laptop which can do small tasks. I made this virtual assistant in python ",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "HTML5",
+          iconifyClass: "devicon:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "devicon:css3",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "devicon:bootstrap",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "devicon:javascript",
+        },
+        {
+          name: "Jquery",
+          iconifyClass: "devicon:jquery-wordmark",
         },
       ],
     },
     {
-      name: "OneNote",
+      name: "To Do List",
       url: "https://onennote.netlify.app/",
       description:
         "This is a online todo app which looks like sticky notes. It also has search feature by which user can search their task easily",
@@ -378,47 +402,60 @@ const projects = {
           name: "ReactJS",
           iconifyClass: "logos-react",
         },
-      ],
-    },
-    {
-      name: "Youtube Video Downloader",
-      url: "https://github.com/Aryank728/youtube-downloader",
-      description: "This is a youtube downloader which I created using python.",
-      languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "CSS3",
+          iconifyClass: "devicon:css3",
         },
       ],
     },
     {
-      name: "Pdf-to-Audio",
-      url: "https://github.com/Aryank728/Pdf-to-audio",
+      name: "Url to QR generator",
+      url: "https://urlgenerate.netlify.app/",
       description:
-        "I created this pdf to audio convertoer using python. This takes a pdf at one time as a input and convert the content of pdf into audio and provide audio output Immediately",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      name: "Chat Whisper",
-      url: "https://github.com/Aryank728/chat-whisper",
-      description:
-        "This is a small realtime chatting web app which is used for chatting to friends. You can also send pictures in this.",
+        "It makes creating website URLs easy by letting users enter details like site name, domain, and path. It then generates a valid URL based on the inputs.",
       languages: [
         {
           name: "ReactJS",
           iconifyClass: "logos-react",
         },
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "CSS3",
+          iconifyClass: "devicon:css3",
         },
       ],
     },
+    {
+      name: "Recipe Finder",
+      url: "https://khaana.netlify.app/",
+      description:
+        "It uses a third-party API to show recipe details, search, filter, favorite recipes, and display step-by-step cooking instructions.",
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "devicon:css3",
+        },
+      ],
+    },
+    // {
+    //   name: "Chat Whisper",
+    //   url: "https://github.com/Aryank728/chat-whisper",
+    //   description:
+    //     "This is a small realtime chatting web app which is used for chatting to friends. You can also send pictures in this.",
+    //   languages: [
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //   ],
+    // },
   ],
 };
 
