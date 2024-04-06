@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     "I am always enthusiastic to learn new technologies. I am always trying to create a project what I learned. I am interested in Python programming, Web development, and many more...   ",
   resumeLink:
-    "https://drive.google.com/file/d/1yRcAijOXskruKNuIvPV5a2OTMvOosIQV/view?usp=sharing",
+    "https://drive.google.com/file/d/1xoZrvx7o9nDGzhRVVbwks4mVzHabi52J/view?usp=sharing",
   mail: "kumararyan1929@gmail.com",
 };
 
@@ -86,7 +86,7 @@ const skills = {
         },
         {
           skillName: "Jquery",
-          fontAwesomeClassname: "devicon-plain:jquery-wordmark",
+          fontAwesomeClassname: "fontisto:jquery",
           style: {
             backgroundColor: "#FFFFFF",
             color: "#0769AD",
@@ -160,6 +160,13 @@ const skills = {
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4479A1",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
           style: {
             color: "#4479A1",
           },
