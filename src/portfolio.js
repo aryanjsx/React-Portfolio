@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     "I am always enthusiastic to learn new technologies. I am always trying to create a project what I learned. I am interested in Python programming, Web development, and many more...   ",
   resumeLink:
-    "https://drive.google.com/file/d/1xoZrvx7o9nDGzhRVVbwks4mVzHabi52J/view?usp=sharing",
+    "https://drive.google.com/file/d/1FZM1NwYqwm_kdkLXjMWBxlvILlZJwdd8/view?usp=sharing",
   mail: "kumararyan1929@gmail.com",
 };
 
@@ -328,7 +328,7 @@ const experience = {
           company: "Helper4U Services LLP",
           company_url: "https://www.helper4u.in/",
           logo_path: "cra.png",
-          duration: "Dec 2023 - Mar 2024",
+          duration: "Dec 2022 - Mar 2024",
           location: "Remote",
           description: `
           ⚡ Contributed expertise in web and android development, enhancing project outcomes. \n
