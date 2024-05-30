@@ -172,6 +172,13 @@ const skills = {
           },
         },
         {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#F7DF1E",
+          },
+        },
+        {
           skillName: "KnexJS",
           fontAwesomeClassname: "devicon:knexjs",
           style: {
