@@ -452,10 +452,10 @@ const projects = {
       ],
     },
     {
-      name: "To Do List",
-      url: "https://onennote.netlify.app/",
+      name: "Know India",
+      url: "https://knowindia.vercel.app",
       description:
-        "This is a online todo app which looks like sticky notes. It also has search feature by which user can search their task easily",
+        "Know India is an informative tourism website that highlights famous destinations, culture, and heritage across India. Powered by Driver.js and data management using TiDB.\n",
       languages: [
         {
           name: "ReactJS",
@@ -464,6 +464,26 @@ const projects = {
         {
           name: "CSS3",
           iconifyClass: "devicon:css3",
+        },
+        {
+          name: "Tailwind CSS",
+          iconifyClass: "devicon:tailwindcss",
+        },
+        {
+          name: "Material UI",
+          iconifyClass: "simple-icons:mui",
+        },
+        {
+          name: "Node.js",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "Vercel",
+          iconifyClass: "simple-icons:vercel",
+        },
+        {
+          name: "Chart.js",
+          iconifyClass: "logos-chartjs",
         },
       ],
     },
