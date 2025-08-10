@@ -1,5 +1,5 @@
 const settings = {
-  isSplash: false, // Change this to true if you want to use the splash screen.
+  isSplash: true, // Change this to true if you want to use the splash screen.
   useCustomCursor: true, // Change this to false if you want the good'ol cursor
 };
 
@@ -7,7 +7,7 @@ const settings = {
 const greeting = {
   title: "Hello,",
   title2: "Aryan",
-  logo_name: "_aryank",
+  logo_name: "AK",
   nickname: "aryan728",
   full_name: "Aryan Kumar",
   subTitle:
