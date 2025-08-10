@@ -54,9 +54,9 @@ If you like what you see, feel free to connect!
 ## 📬 Let's Connect!
 
 - 📧 Email: [kumararyan1929@gmail.com](mailto:kumararyan1929@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/aryank728](https://www.linkedin.com/in/aryank728)
-- 🐦 Twitter: [@_aryankumar](https://twitter.com/_aryankumar)
-- 💻 GitHub: [Aryank728](https://github.com/Aryank728?tab=repositories)
+- 💼 LinkedIn: [linkedin.com/in/aryank728](https://www.linkedin.com/in/aryanjsx)
+- 🐦 Twitter: [@_aryankumar](https://twitter.com/aryanjsx)
+- 💻 GitHub: [Aryank728](https://github.com/aryanjsx)
 
 ---
 
