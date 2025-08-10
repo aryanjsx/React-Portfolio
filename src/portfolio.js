@@ -19,12 +19,12 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/Aryank728?tab=repositories",
-  linkedin: "https://www.linkedin.com/in/aryank728",
+  github: "https://github.com/aryanjsx",
+  linkedin: "https://www.linkedin.com/in/aryanjsx",
   gmail: "kumararyan1929@gmail.com",
-  facebook: "https://www.facebook.com/aryank728/",
-  twitter: "https://twitter.com/_aryankumar",
-  instagram: "https://www.instagram.com/aryankr728/",
+  facebook: "https://www.facebook.com/aryanjsx/",
+  twitter: "https://twitter.com/aryanjsx",
+  instagram: "https://www.instagram.com/aryanjsx  /",
 };
 
 const skills = {
@@ -413,10 +413,10 @@ const contactPageData = {
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
-    // title: "Blogs",
-    // subtitle:
-    //   "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
-    // link: "https://medium.com/@hrishipatel99",
+    title: "Blogs",
+    subtitle:
+      "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
+    link: "https://aryanjsx.medium.com",
     avatar_image_path: "blogs_image.svg",
   },
 };

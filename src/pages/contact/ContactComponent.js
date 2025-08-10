@@ -75,9 +75,9 @@ function Contact(props) {
                 {blogSection["subtitle"]}
               </p>
               <div className="blogsite-btn-div">
-                {/* <a {...styles} className="general-btn" href={blogSection.link}>
+                <a {...styles} className="general-btn" href={blogSection.link}>
                   My Medium Profile
-                </a> */}
+                </a>
               </div>
             </div>
             <div className="blog-heading-img-div">
