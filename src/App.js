@@ -4,7 +4,7 @@ import Main from "./containers/Main";
 import { ThemeProvider } from "styled-components";
 import { themes } from "./theme";
 import { GlobalStyles } from "./global";
-import { CursorProvider } from "react-cursor-custom";
+// Custom cursor removed due to React 18 compatibility issues
 import { settings } from "./portfolio";
 import ReactGA from "react-ga";
 import SEO from "./components/SEO/SEO";
@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
-  const useCursor = settings.useCustomCursor;
+  // Custom cursor functionality removed
 
   return (
     <ThemeProvider theme={themes[theme]}>
@@ -28,17 +28,7 @@ function App() {
         <SEO />
         <GlobalStyles />
         <div>
-          {useCursor ? (
-            <CursorProvider
-              color={themes[theme].secondaryText}
-              ringSize={25}
-              transitionTime={75}
-            >
-              <Main theme={themes[theme]} setTheme={setTheme} />
-            </CursorProvider>
-          ) : (
-            <Main theme={themes[theme]} setTheme={setTheme} />
-          )}
+          <Main theme={themes[theme]} setTheme={setTheme} />
         </div>
       </>
     </ThemeProvider>
