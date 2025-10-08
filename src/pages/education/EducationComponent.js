@@ -5,7 +5,7 @@ import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function Education(props) {
   const theme = props.theme;

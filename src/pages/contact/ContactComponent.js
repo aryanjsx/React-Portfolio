@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import BlogsImg from "./BlogsImg";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
@@ -30,7 +30,9 @@ function Contact(props) {
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                src={require(
+                  `../../assests/images/${ContactData["profile_image_path"]}`,
+                )}
                 alt=""
               />
             </div>
